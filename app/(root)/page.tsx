@@ -1,10 +1,9 @@
-import { Button } from "@/components/ui/button";
-
-export default function Home() {
+const SetUpPage = () => {
     return (
       <div className="p-4">
-        <Button size="default" variant="default">Click me</Button>
+        This is a protected route.
       </div>
     )
   }
   
+  export default SetUpPage;
